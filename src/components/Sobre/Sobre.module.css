@@ -1,0 +1,20 @@
+.containerSobre {
+    max-width: 102.4rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.containerSobre h3 {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.containerSobre p {
+    line-height: 1.6;
+    font-size: 2rem;
+    color: rgb(179, 173, 173);
+    text-align: center;
+}

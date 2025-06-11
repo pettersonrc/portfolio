@@ -1,0 +1,24 @@
+.containerTec {
+    margin-top: 16rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+}
+
+.containerTec h3 {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.containerCards {
+    max-width: 102.4rem;
+    margin: 0 auto;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+}

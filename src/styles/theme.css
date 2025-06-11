@@ -1,0 +1,19 @@
+:root {
+    /* Tema Dark */
+    --background-color: #0d0b1f;
+    --text-color: #ede9fe;
+    --text-secondary-color: #a89ec9;
+    --primary-color: #6c3ef5;
+    --primary-light-color: #8a63f7;
+    --border-color: #26233b;
+}
+
+:root[data-theme="light"] {
+    /* Tema Light */
+    --background-color: #ffffff;
+    --text-color: #1a1a1a;
+    --text-secondary-color: #555555;
+    --primary-color: #6c3ef5;
+    --primary-light-color: #e4dcff;
+    --border-color: #ededed;
+}

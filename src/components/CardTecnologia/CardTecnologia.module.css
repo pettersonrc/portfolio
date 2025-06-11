@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 14rem;
+    width: 12rem;
+    cursor: pointer;
+    border-top-left-radius: 4rem;
+    background-color: var(--border-color);
+    border-bottom: 0.4rem solid var(--primary-color);
+}
+
+.logo {
+    font-size: 4.6rem;
+}
