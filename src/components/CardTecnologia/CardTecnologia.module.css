@@ -10,6 +10,13 @@
     border-top-left-radius: 4rem;
     background-color: var(--border-color);
     border-bottom: 0.4rem solid var(--primary-color);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem rgba(108, 62, 245, 0.3); /* glow roxo opcional */
 }
 
 .logo {

@@ -1,9 +1,9 @@
 .containerTec {
-    margin-top: 16rem;
+    margin-top: 12rem;
 
     display: flex;
     flex-direction: column;
-    gap: 4.2rem;
+    gap: 2.4rem;
 }
 
 .containerTec h3 {
@@ -15,6 +15,7 @@
     max-width: 102.4rem;
     margin: 0 auto;
     height: 30vh;
+    padding: 2rem 2rem;
 
     display: flex;
     justify-content: center;

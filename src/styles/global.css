@@ -17,25 +17,24 @@ body {
     color: var(--text-color);
 }
 
-/* Estiliza a barra de rolagem inteira */
 ::-webkit-scrollbar {
-    width: 1rem; /* largura da barra vertical */
-    height: 1rem; /* altura da barra horizontal, se aplicável */
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 /* Trilha (fundo da scrollbar) */
 ::-webkit-scrollbar-track {
-    background-color: var(--background-color); /* fundo igual ao site */
+    background-color: var(--background-color);
 }
 
 /* Polegar (a parte que se move) */
 ::-webkit-scrollbar-thumb {
-    background-color: var(--primary-color); /* roxo vibrante */
+    background-color: var(--primary-color);
     border-radius: 1rem;
-    border: 0.2rem solid var(--background-color); /* borda com espaço */
+    border: 0.2rem solid var(--background-color);
 }
 
 /* Hover no polegar */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--primary-light-color); /* roxo mais claro no hover */
+    background-color: var(--primary-light-color);
 }
