@@ -1,4 +1,4 @@
-import { motion, useInView } from "framer-motion";
+import { motion as Motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import styles from "./Tecnologias.module.css";
 import { todasTecnologias } from "../../services/servicos";
@@ -6,10 +6,10 @@ import { CardTecnologia } from "../CardTecnologia";
 
 export function Tecnologias() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { amount: 0.3 });
+  const isInView = useInView(ref, { amount: 0.8 });
 
   return (
-    <motion.section
+    <Motion.section
       ref={ref}
       className={styles.containerTec}
       initial={{ opacity: 0, x: -100 }}
@@ -26,6 +26,6 @@ export function Tecnologias() {
           />
         ))}
       </div>
-    </motion.section>
+    </Motion.section>
   );
 }

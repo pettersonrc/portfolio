@@ -1,0 +1,22 @@
+.containerProjetos {
+    margin: 0 auto;
+    padding: 0rem 20rem;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.containerProjetos h3 {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.listaCards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    width: 100%;
+    align-items: center;
+}
